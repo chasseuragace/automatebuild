@@ -15,7 +15,7 @@ jobs:
           java-version: '12.x'
       - uses: subosito/flutter-action@v1
         with:
-        channel: 'stable' # or: 'beta', 'dev' or 'master'
+          channel: 'stable' # or: 'beta', 'dev' or 'master'
       - run: flutter pub get
       - run: flutter build apk
       - uses: ncipollo/release-actions@v1
