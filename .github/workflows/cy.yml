@@ -6,7 +6,6 @@ on:
       - develop
 jobs:
   build:
-  name: "Build apk and ios"
   runs_on : macos-latest
   steps:
     - uses: actions/checkout@v2
