@@ -1,6 +1,6 @@
 name: CI
 on:
-  prush:
+  push:
     braches:
       - release
       - develop
